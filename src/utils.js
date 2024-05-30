@@ -13,3 +13,7 @@
       return identidad[numRandomEntero(0, identidad.length - 1)];
     }
     
+
+    export function refrescarPagina() {
+      window.location.reload(false);
+    }
